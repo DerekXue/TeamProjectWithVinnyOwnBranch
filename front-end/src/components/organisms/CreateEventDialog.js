@@ -79,6 +79,7 @@ export default class CreateEventDialog extends React.Component {
       noOfTickets: this.state.noOfTickets,
       price: this.state.price,
       description: this.state.description,
+      venueId: this.state.selectedVenue,
     }
     console.log('==================')
     console.log(a)

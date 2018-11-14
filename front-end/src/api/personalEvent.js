@@ -18,7 +18,7 @@ export function createEvent(a) {
   console.log('==================')
   console.log(a)
   console.log('==================')
-  return api.post(`/personalEvent`, { hello: 'hai' })
+  return api.post(`/personalEvent`, a)
     .then(res => {
       // console.log("res", res)
       // ????????
